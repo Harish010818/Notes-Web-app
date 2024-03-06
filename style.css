@@ -94,7 +94,7 @@ button:focus {
 
 .text-snippet {
     padding-inline: 5px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.2rem;
     color: #4A4E74;
@@ -104,11 +104,11 @@ button:focus {
 }
 
 .selected-note {
-    background-color: 7c6a0a;
+    background-color: ccd5ae;
 }
 
 .selected-note .text-snippet {
-    color: white;
+    color: black;
     font-weight: 700;
 }
 
@@ -145,6 +145,7 @@ button:focus {
     display: none;
     background: none;
     border: none;
+    margin-right: 5px;
 }
 
 .title:hover > .delete-btn {
@@ -169,10 +170,11 @@ button:focus {
         inset 2px 0 0;
     border-bottom-left-radius: 1px;
     border-bottom-right-radius: 1px;
-    margin-top: 4px
+    margin-top: 4px;
+    color: d62828;
 }
 
-.gg-trash::after,
+ .gg-trash::after,
 .gg-trash::before {
     content: "";
     display: block;
@@ -198,4 +200,4 @@ button:focus {
     border-top-right-radius: 2px;
     top: -7px;
     left: -2px
-} 
+}  
